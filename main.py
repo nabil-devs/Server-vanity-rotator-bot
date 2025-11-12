@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 import aiohttp
 import discord
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("TOKEN")
 GUILD_ID = os.getenv("GUILD_ID")
 DELAY = os.getenv("DELAY")
 VANITY_FILE = os.getenv("VANITY_FILE")
